@@ -1,0 +1,307 @@
+body,
+html {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #efefef;
+}
+
+/* Navbar Starts */
+
+.banner {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./pngtree-business-people-recruiting-horses-for-job-hunting-cartoon-childlike-background-picture-image_1033540.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin-top: -150px;
+}
+.navbar {
+  background-color: rgba(1, 1, 1);
+  padding: 19px 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-item,
+.navbar-nav {
+  display: inline;
+}
+
+.navbar-nav {
+  margin-left: 177px;
+}
+.navbar-brand {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+.navbar-brand span {
+  color: #105496;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.navbar-brand:hover {
+  background-color: rgb(22, 236, 29);
+  border-radius: 100%;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(237, 227, 227);
+  font-weight: bold;
+}
+.nav-link {
+  margin-left: 40px;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: limegreen;
+}
+.navbar-brand {
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-left: 60px;
+  color: black;
+}
+hr {
+  display: inline;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+.navbar img {
+  width: 70px;
+  height: 40px;
+  border-radius: 20%;
+  border: solid 2px blue;
+  cursor: pointer;
+  transition: background-color 0.8s;
+}
+.navbar img:hover {
+  background-color: rgb(3, 179, 3);
+  box-shadow: 4px 4px 4px 4px;
+  box-sizing: border-box;
+}
+
+.banner-card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 45%;
+  border-top: 5px solid rgb(3, 179, 3);
+  margin: 180px auto;
+  padding: 20px;
+  position: relative;
+  top: 250px;
+}
+#c {
+  font-weight: bold;
+  color: aqua;
+}
+
+.banner-btn {
+  background-color: transparent;
+  border: 2px solid rgb(3, 179, 3);
+  padding: 13px 35px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 280px;
+  transition: background-color 0.8s;
+}
+
+.banner-btn:hover {
+  background-color: rgb(3, 179, 3);
+}
+
+/* Navbar Ends */
+
+/* ipsam starts */
+
+.ipsam {
+  margin: 1px 150px;
+  background-color: rgba(255, 255, 255, 0.329);
+}
+.ipsam-content {
+  width: 500px;
+  display: inline-block;
+  /* margin-left: 20px; */
+  padding: 50px;
+}
+.ipsam-content h1 {
+  font-size: 45px;
+  color: rgb(109, 98, 98);
+}
+
+.ipsam-content ul {
+  list-style-type: none;
+  margin-left: -38px;
+}
+
+.ipsam-content ul li {
+  margin-top: 10px;
+}
+.fa-check-double {
+  color: green;
+}
+/* ipsam ends */
+
+/* Lorem Starts */
+
+.lorem {
+  margin: 50px 50px 50px 50px;
+  background-color: rgba(192, 184, 184, 0.116);
+  padding: 50px;
+}
+
+.lorem-card {
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.178);
+  padding: 120px 20px;
+  display: inline-block;
+  margin-left: 50px;
+  text-align: center;
+  border: solid 2px rgb(5, 169, 161);
+  transition: background-color 0.8s, box-shadow 0.8s;
+}
+.lorem-card:hover {
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.363);
+  border: 2px;
+}
+
+.fa-dribbble,
+.fa-file-invoice,
+.fa-tachometer {
+  font-size: 30px;
+  background-color: rgba(119, 136, 153, 0.096);
+  padding: 20px;
+  border-radius: 40px;
+}
+.fa-dribbble {
+  color: rgb(0, 162, 255);
+}
+.fa-file-invoice {
+  color: orangered;
+}
+.fa-tachometer {
+  color: crimson;
+}
+
+.lorem-card:hover .fa-dribbble {
+  background-color: rgb(0, 162, 255);
+  color: white;
+}
+
+.lorem-card:hover .fa-file-invoice {
+  background-color: orangered;
+  color: white;
+}
+.lorem-card:hover .fa-tachometer {
+  background-color: crimson;
+  color: white;
+}
+
+.lorem-content-margin {
+  margin-top: 30px;
+}
+/* Lorem ends */
+
+/* gallary starts */
+.gallary img {
+  width: 300px;
+  height: 300px;
+  margin-left: 60px;
+  opacity: 0.5;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px black;
+  margin-top: 20px;
+  transition: opacity 0.6s, transform 1s;
+}
+.gallary img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+/* gallary ends */
+
+/* Client Starts */
+
+.clients {
+  margin: 80px 111px;
+  margin-left: 210px;
+}
+.clients h1 {
+  text-align: center;
+  background-color: greenyellow;
+  margin-right: 90px;
+}
+.clients hr {
+}
+.client-card {
+  height: 100px;
+  width: 280px;
+  border: 1px solid rgb(96, 93, 93);
+  display: inline-block;
+  margin-left: -6px;
+  align-items: center;
+}
+.client-card img {
+  width: 100px;
+  height: 50px;
+  margin: 20px 80px;
+  transition: transform 0.8s;
+  align-items: center;
+}
+.client-card:hover img {
+  transform: scale(1.3);
+}
+/* Client Ends */
+/* footer starts */
+.footer {
+  /* margin: 20px 83px; */
+  background-color: black;
+  color: white;
+}
+.footer li {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.footer div {
+  width: 250px;
+  padding: 50px 20px;
+  display: inline-block;
+  margin-left: 40px;
+}
+.footer ul {
+  list-style-type: none;
+}
+
+.fa-greater-than {
+  color: green;
+}
+
+.join input {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 8px;
+  border: none;
+}
+
+.join button {
+  padding: 7px 4px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  position: relative;
+  top: -35px;
+  margin-left: 162px;
+  border: none
+}
+/* footer Ends */
